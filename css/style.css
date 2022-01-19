@@ -18,13 +18,8 @@
 .fa-star 
 {
 	color: blue;
-	cursor: pointer;
 }
-.stars 
+#star_grey
 {
-	display: inline-flex;
-}
-.stars .fa-star:hover ~ .fa-star 
-{
-    color: whitesmoke;
+	color: whitesmoke;
 }
