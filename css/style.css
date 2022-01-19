@@ -218,19 +218,29 @@ input
     border-width: thin;
     border-color: #F2F2F2;
     border-radius: 20px;
+    width: 60%;
+    margin-left: 40px;
 }
 
 #annonces_hebergements_marseille img
 {
-    max-width: 33.33%;
+    max-width: 30%;
     height: auto;
+    padding: 0px;
+}
+#annonces_hebergements_marseille
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-figure img, figcaption
+figure
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+
 
 .fa-star 
 {
@@ -242,10 +252,29 @@ figure img, figcaption
 }
 
 /* Section : Hébergements à Marseille */
-
+#hebergementsetpopulaires
+{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
 /* Setion : Hébergements populaires */
 
-
+/* Footer */
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 40px;
+}   
+.p_footer
+{
+    margin: 10px;
+}
+footer h4
+{
+    margin-left: 10px;
+}
