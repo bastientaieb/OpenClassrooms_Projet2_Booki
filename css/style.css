@@ -15,7 +15,10 @@ a
     text-decoration: none;
     color: black;
     padding: 0px;
-    margin-bottom: 0px;
+}
+.fa-star
+{
+
 }
 /* Header */
 header
@@ -227,15 +230,24 @@ input
     width: 60%;
     margin-left: 40px;
 }
-
+#hebergements_marseille h2
+{
+    margin-left: 30px;
+}
 #hebergements_marseille img
 {
     max-width: 90%;
     height: auto;
     padding: 0px;
-    display: flex;
-    justify-content: center;
+    object-fit: cover;
 }
+#hebergements_marseille div
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 figure
 {
     background-color: white;
@@ -245,6 +257,8 @@ figure
     border-radius: 20px;
     margin-left: 15px;
     width: 20%;
+    display: flex;
+    align-items: center;
 }
 #annonces_hebergements_marseille
 {
