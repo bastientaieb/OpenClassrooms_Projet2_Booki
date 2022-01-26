@@ -1,0 +1,50 @@
+/* Header */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+#logo_booki {
+  margin-right: auto;
+  padding-left: 40px;
+  width: 150px;
+  height: auto;
+}
+#nav_phone {
+  display: flex;
+}
+#lien_hebergements {
+  color: var(--blue);
+}
+nav a {
+  padding: 20px;
+}
+#nav_phone a {
+  border-top: 3px solid white;
+}
+#nav_phone a:hover {
+  border-top: 3px solid var(--blue);
+}
+/* Media Queries Navigation & logo */
+@media (max-width: 768px) {
+  nav a:hover {
+    border-bottom-color: var(--blue);
+  }
+  #nav_phone {
+    flex-basis: 100%;
+  }
+  nav a {
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 3px solid var(--lightgrey);
+    font-size: 15px;
+    font-weight: 300;
+  }
+  #logo_booki {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: auto;
+  }
+}

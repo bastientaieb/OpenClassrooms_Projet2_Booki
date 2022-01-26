@@ -1,0 +1,193 @@
+/* Section des hébergements & activités  */
+
+/* Section hébergements - Appartments_List */
+#appartments_list {
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 768px) {
+  #appartments_list {
+    flex-direction: column-reverse;
+  }
+}
+/* Appartments_List - City (Hébergements à Marseille) */
+
+#appartments_list #city {
+  background-color: var(--lightgrey);
+  flex-basis: 66%;
+  padding: 12px 40px 12px 12px;
+  border-radius: 20px;
+  height: 650px;
+}
+#city .title_city {
+  margin-left: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+#city_appartments_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+/* Annonces des Hébergements à Marseille - annonce_hebergements */
+.annonce_hebergements {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px grey;
+  padding: 5px;
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.annonce_hebergements img {
+  border-radius: 20px 20px 0px 0px;
+  padding: 1px;
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+}
+.annonce_hebergements p {
+  margin: 3px;
+  padding: 3px;
+  font-size: 15px;
+}
+/* h3 Card Hébergement Marseille */
+.hebergement_name {
+  font-weight: 600;
+  font-size: 17px;
+  margin: 3px;
+  padding: 3px;
+}
+/* Etoiles annonces Hébergements Marseille */
+.annonce_hebergements .stars {
+  margin-left: 5px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+.stars .fa.fa-star {
+  color: var(--blue);
+}
+.stars #star_grey {
+  color: var(--lightgrey);
+}
+#city_appartments_list .fa.fa-star {
+  font-size: 14px;
+}
+/* Effet sur les cartes hébergements */
+.annonce_hebergements:hover {
+  -webkit-transform: scale(1.12); /* Safari et Chrome */
+  -moz-transform: scale(1.12); /* Firefox */
+  -ms-transform: scale(1.12); /* Internet Explorer 9 */
+  -o-transform: scale(1.12); /* Opera */
+  transform: scale(1.12);
+}
+/* Message "Afficher Plus" */
+#appartments_list .afficher_plus {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* Media Queries Hébergements à Marseille */
+@media (max-width: 768px) {
+  .annonce_hebergements {
+    flex-grow: 1;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Section hébergements populaire - #popular */
+#appartments_list #popular {
+  background-color: var(--lightgrey);
+  width: 33%;
+  border-radius: 20px;
+  padding: 12px;
+  height: 650px;
+}
+/* Titre hébergements populaires + icône */
+.title_popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+.title_popular .title_popular_h3 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 20px;
+}
+.title_popular i {
+  font-size: 22px;
+  padding-right: 42px;
+}
+/* Hébergements populaires - #popular_flex */
+#popular_flex {
+  display: flex;
+  flex-direction: column;
+}
+/* Card Hébergements populaires - annonce_populaire */
+#popular_flex .annonce_populaire {
+  display: flex;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 0 15px grey;
+  width: 85%;
+  height: 150px;
+  margin-left: 20px;
+}
+#popular_flex .annonce_populaire img {
+  width: 42%;
+  margin-right: 10px;
+  border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
+  padding: 5px;
+}
+/* h3 Card Hébergement Populaires */
+.popular_description .hebergement_name2 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 3px;
+  padding-top: 5px;
+}
+.popular_description p {
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+/* Etoiles annonces populaires */
+#popular .annonce_populaire .fa.fa-star {
+  font-size: 12px;
+}
+/* Media Queries hébergements populaires */
+@media (max-width: 768px) {
+  #appartments_list #popular {
+    width: 100%;
+  }
+  .annonce_populaire {
+    flex-grow: 1;
+    width: 100%;
+  }
+  .annonce_populaire img {
+    width: 100%;
+    object-fit: cover;
+  }
+  #annonce_populaire .popular_description {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+}
+.annonce_populaire:hover {
+  -webkit-transform: scale(1.12); /* Safari et Chrome */
+  -moz-transform: scale(1.12); /* Firefox */
+  -ms-transform: scale(1.12); /* Internet Explorer 9 */
+  -o-transform: scale(1.12); /* Opera */
+  transform: scale(1.12);
+}

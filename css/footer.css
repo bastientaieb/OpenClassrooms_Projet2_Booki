@@ -1,0 +1,21 @@
+/* Footer */
+footer {
+  width: 100%;
+  padding-left: 40px;
+  background-color: var(--lightgrey);
+  padding-bottom: 40px;
+}
+.nav_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 74%;
+}
+.nav_footer p {
+  margin: 10px;
+  font-size: 14px;
+}
+.nav_footer h4 {
+  margin-left: 10px;
+  font-weight: 600;
+  padding-top: 20px;
+}
