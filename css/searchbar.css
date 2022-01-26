@@ -47,26 +47,39 @@ h1 + p {
 /* Media Queries Headings + Search */
 @media (max-width: 768px) {
   h1 {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
     margin-top: 30px;
     width: 100%;
-    padding-left: 0px;
+    padding-left: 40px;
+    padding-right: 160px;
     margin-left: -10px;
     align-content: center;
   }
   h1 + p {
     margin-bottom: 30px;
-    font-size: 14.5px;
+    font-size: 22px;
     margin-left: -10px;
     width: 100%;
+    padding: 0px 40px;
   }
   #search_bar {
     margin-left: -10px;
-    height: 50px;
+    height: 60px;
+    padding: 0px 40px;
+    margin-top: 40px;
+  }
+  #search_bar input {
+    flex-basis: 350px;
+  }
+  #search_bar label i {
+    font-size: 26px;
   }
   #search_bar label i {
     padding: 17px 18px;
+  }
+  #search_bar input::placeholder {
+    color: black;
   }
 
   button #search_button {
