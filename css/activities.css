@@ -5,6 +5,8 @@
 .activities_list {
   display: flex;
   gap: 40px;
+  height: 690px;
+  padding-top: 120px;
 }
 /* Colonne 1 */
 .big_image_1 img {
@@ -239,6 +241,11 @@
   .small_image_2 img {
     height: 75%;
     width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1130px) {
+  .activities_list {
+    padding-top: 200px;
   }
 }
 /* Fin section activités */
