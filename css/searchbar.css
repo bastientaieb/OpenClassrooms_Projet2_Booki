@@ -47,21 +47,22 @@ h1 + p {
 /* Media Queries Headings + Search */
 @media (max-width: 768px) {
   h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
     margin-top: 30px;
     width: 100%;
     padding-left: 40px;
-    padding-right: 160px;
+    padding-right: 40px;
     margin-left: -10px;
     align-content: center;
   }
   h1 + p {
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 19px;
     margin-left: -10px;
     width: 100%;
-    padding: 0px 40px;
+    padding-left: 40px;
+    padding-right: 20px;
   }
   #search_bar {
     margin-left: -10px;

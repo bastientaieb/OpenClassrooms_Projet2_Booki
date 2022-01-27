@@ -1,12 +1,12 @@
 /* Section activités */
 .activities {
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px 0px 0px;
 }
 .activities_list {
   display: flex;
   gap: 40px;
-  height: 690px;
-  padding-top: 120px;
+  height: 600px;
+  padding-top: 20px;
 }
 /* Colonne 1 */
 .big_image_1 img {
@@ -168,8 +168,9 @@
 /* Media Queries Activités  TELEPHONE */
 @media (max-width: 768px) {
   .activities h3 {
-    padding-left: 30px;
+    margin-left: 10px;
     font-size: 25px;
+    margin-top: 5px;
   }
 }
 /* Media Queries activités TABLETTE */
@@ -177,12 +178,18 @@
   .activities {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    flex-basis: 100%;
+    margin-right: -40px;
+  }
+  .activities h3 {
+    padding-left: 15px;
   }
   .activities_list {
     flex-direction: column;
-    margin-left: 20px;
+    justify-content: center;
+    margin-left: 25px;
     margin-top: 20px;
+    flex-basis: 100%;
   }
   .activities_column2 {
     width: 100%;
@@ -192,7 +199,7 @@
   .activities_column4 {
     width: 100%;
     gap: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
   }
   .big_image_1 {
     width: 90%;
@@ -241,11 +248,6 @@
   .small_image_2 img {
     height: 75%;
     width: 100%;
-  }
-}
-@media (min-width: 992px) and (max-width: 1130px) {
-  .activities_list {
-    padding-top: 200px;
   }
 }
 /* Fin section activités */

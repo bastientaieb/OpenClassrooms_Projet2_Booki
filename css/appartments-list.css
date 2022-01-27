@@ -14,18 +14,15 @@
   border-radius: 20px;
   height: 650px;
 }
-#city .title_city {
-  margin-left: 10px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  font-size: 22px;
-}
 #city_appartments_list {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 15px;
   justify-content: space-around;
   margin-bottom: 15px;
+}
+#city .title_city {
+  padding-left: 15px;
 }
 /* Annonces des Hébergements à Marseille - annonce_hebergements */
 .annonce_hebergements {
@@ -138,20 +135,9 @@
     font-size: 20px;
   }
 }
-@media (min-width: 992px) and (max-width: 1130px) {
-  .annonce_hebergements {
-    flex-grow: 1;
-    flex-basis: 50%;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  #city_appartments_list img {
-    width: 70%;
-    height: 130px;
-    object-fit: cover;
-  }
-  #appartments_list #city {
-    flex-basis: 50%;
+@media (min-width: 993px) and (max-width: 1130px) {
+  #city_appartments_list {
+    gap: 5px;
   }
 }
 /* Section hébergements populaire - #popular */
