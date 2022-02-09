@@ -179,7 +179,6 @@
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    margin-right: -40px;
   }
   .activities h3 {
     padding-left: 15px;
