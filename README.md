@@ -1,6 +1,7 @@
 # OpenClassrooms_projet_2
 
-Réalisation de la partie front-end du site internet Booki. 
+Réalisation de la partie front-end du site internet Booki.
+Le développement concerne uniquement la page d'accueil du site de réservation mais les liens qui redirigent sont tous valides. 
 
 Mise en pratique du HTML & du CSS. 
 
