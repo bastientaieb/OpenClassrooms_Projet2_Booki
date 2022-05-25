@@ -10,3 +10,4 @@ Compétences améliorées :
 - Mise en pratique des bonnes pratiques de nomination de classes / id.
 - Refactoring et bonnes pratiques pour la gestion des fichiers CSS. (Gestion des imports et exports)
 - Utilisation des flex-box.
+- Mise en place du responsive avec une vue site web, smartphones & tablettes.
