@@ -12,3 +12,4 @@ Compétences améliorées :
 - Refactoring et bonnes pratiques pour la gestion des fichiers CSS. (Gestion des imports et exports)
 - Utilisation des flex-box.
 - Mise en place du responsive avec une vue site web, smartphones & tablettes.
+- Gestion des variables & des effets via des pseudos-classes. 
