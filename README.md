@@ -1,4 +1,4 @@
-# openclassroom_projet_2
+# OpenClassrooms_projet_2
 
 Réalisation de la partie front-end du site internet Booki. 
 
